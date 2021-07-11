@@ -1,7 +1,7 @@
 {
   "name": "next-graphql-let-plugin",
-  "version": "0.1.0",
-  "description": "Next.js plugin to automatically generate TypeScript types and fetching functions from GraphQL Schema",
+  "version": "1.0.0",
+  "description": "Frictionless graphql-let setup for Next.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,13 +31,10 @@
     "url": "http://antoni.ai"
   },
   "license": "MIT",
-  "devDependencies": {
-    "@graphql-codegen/cli": "^1.21.6",
-    "@graphql-codegen/import-types-preset": "^1.18.5",
-    "@graphql-codegen/typescript": "^1.22.4",
-    "@graphql-codegen/typescript-operations": "^1.18.3",
-    "@graphql-codegen/typescript-react-apollo": "^2.3.0",
-    "graphql": "^15.5.1",
-    "graphql-let": "^0.18.4"
+  "peerDependencies": {
+    "@graphql-codegen/cli": "^1.21",
+    "graphql": "^15",
+    "graphql-let": "^0.18",
+    "next": "*"
   }
 }
