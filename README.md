@@ -1,12 +1,14 @@
 # Next.js + graphql-let plugin
 
-This Next.js plugin makes it easy to setup [graphql-let](https://github.com/piglovesyou/graphql-let) in your Next.js project.
+This Next.js plugin makes it easy to setup [graphql-let](https://github.com/piglovesyou/graphql-let) in your Next.js project. The main purpose of this plugin is to eliminate configuration and re-generation friction that you might experience with pure `graphql-let` setup. Mainly this plugin make `next.config.js` cleaner and re-generates the types and query hooks on every `yarn dev` or `yarn build` run.
 
 ## Getting started
 
 Although Next.js plugins usually don't require a lot of setup to get started, this one required couple of steps to be completed before it will work:
 
-### 1. Install dependencies. Note that some of these dependencies are here to support `@apollo/client` integration specifically.
+### 1. Install dependencies
+
+Note that some of these dependencies are here to support `@apollo/client` integration specifically.
 
 With yarn:
 
